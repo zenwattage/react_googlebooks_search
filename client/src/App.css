@@ -1,4 +1,8 @@
 body {
-  background-color: olivedrab;
+  background-image: url("./wall.jpeg");
+  background-size: cover ;
+  background-repeat: no-repeat;
+  background-color: #34362F;
+  color: #C99946;
   
 }

@@ -1,8 +1,10 @@
 .jumbotron {
-    background-color: peru;
+    background-image: url("./mat-reding-98X_gGu2GWA-unsplash.jpg");
+    background-color: #57897B;
     width: 100%;
     height: 200px;
     background-size: cover;
     text-align: initial;
     background-position: center;
+    box-shadow: 2px 4px 4px rgba(52, 54, 47, 0.226);
 }

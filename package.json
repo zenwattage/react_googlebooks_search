@@ -4,14 +4,10 @@
   "description": "searching google books api",
   "main": "server.js",
   "scripts": {
-    "start": "cd client && npm run start && node app.js",
-    "start:prod": "node server.js",
-    "start:server":"cd client && npm run start",
-    "client": "cd client && npm run start",
-    "install": "cd client && npm install",
-    "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build"
-  },
+    "client": "cd client && npm start",
+    "server": "node server",
+    "start": "concurrently - kill-others \"npm run server\" \"npm run client\""
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zenwattage/react_googlebooks_search.git"

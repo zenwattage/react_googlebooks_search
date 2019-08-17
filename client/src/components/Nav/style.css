@@ -1,3 +1,18 @@
 .navbar {
-    background-color: aquamarine;
+    background-color: #34362F;
+    color: #C99946;
+}
+
+h2.navtitle {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.text-white {
+    text-shadow: 2px 2px black;
+}
+
+.btn-info {
+    background-color: #C99946;
+    text-shadow: 1px 1 px black;
 }

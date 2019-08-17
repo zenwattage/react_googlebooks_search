@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Container } from "../components/Grid";
 import API from "../utils/API";
 import Jumbotron from "../components/Jumbotron";
-import SavedBooks from "../components/SavedResult"
+import SavedResult from "../components/SavedResult"
 
 class SaveBook extends Component {
     state = {
@@ -25,7 +25,7 @@ class SaveBook extends Component {
             <Container fluid className="container">
                 <Jumbotron />
                 <Container>
-                    <SavedBooks savedBooks={this.state.savedBooks} handleDeleteButton={this.handleDeleteButton} />
+                    <SavedResult savedBooks={this.state.savedBooks} handleDeleteButton={this.handleDeleteButton} />
                 </Container>
             </Container>
         )

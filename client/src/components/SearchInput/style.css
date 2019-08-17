@@ -1,6 +1,13 @@
 form {
-    background: burlywood;
+    background:#1D354B;
+    margin: 20px;
+    padding: 5px;
+    color: #C99946;
 
+}
+
+input {
+    background-color:#C99946;
 }
 
 .GoogleBookSearchLabel {
