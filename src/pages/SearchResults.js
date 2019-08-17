@@ -70,7 +70,7 @@ class SearchResults extends Component {
                     <Container>
                         <Row>
                             <Col size="12">
-                                <SearchForm
+                                <SearchInput
                                     handleFormSubmit={this.handleFormSubmit}
                                     handleInputChange={this.handleInputChange}
                                 />
