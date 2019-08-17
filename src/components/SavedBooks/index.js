@@ -25,9 +25,9 @@ const SavedResult = props => {
                                         <Col size="2" className="bookImage">
                                             <img src={savedbook.image} alt={savedbook.title} />
                                         </Col>
-                                        
+
                                         <Col size="1" className="emptyCol" />
-                                        
+
                                         <Col size="9" className="bookInfo">
                                             <Row>
                                                 <h2 className="bookTitle">{savedbook.title}</h2>
@@ -49,8 +49,8 @@ const SavedResult = props => {
                                             Delete Book
                                     </button>
                                         <a href={savedbook.link} target="_blank" rel="noopener noreferrer">
-                                        <button className="viewBook btn btn-success">
-                                            View Book
+                                            <button className="viewBook btn btn-success">
+                                                View Book
                                         </button>
                                         </a>
                                     </Row>
