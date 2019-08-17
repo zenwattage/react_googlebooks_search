@@ -1,0 +1,14 @@
+form {
+    background: burlywood;
+
+}
+
+.GoogleBookSearchLabel {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.form-control {
+    width: 90%;
+    margin-left: 15px;
+}
