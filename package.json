@@ -4,9 +4,9 @@
   "description": "searching google books api",
   "main": "server.js",
   "scripts": {
-    "start": "npm run start:prod || npm run start:dev",
+    "start": "cd client && npm run start && node app.js",
     "start:prod": "node server.js",
-    "start:dev": "concurrently \"nodemon --ignore client/\" \"npm run client\"",
+    "start:server":"cd client && npm run start",
     "client": "cd client && npm run start",
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
