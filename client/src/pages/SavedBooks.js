@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Container } from "../components/Grid";
 import API from "../utils/API";
 import Jumbotron from "../components/Jumbotron";
-import SavedBooks from "../components/SavedBooks"
+import SavedBooks from "../components/SavedResult"
 
 class SaveBook extends Component {
     state = {
