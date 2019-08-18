@@ -20,17 +20,17 @@ const SearchResult = props => {
                     <h1 className="searchResults">Search Results</h1>
                     {props.books.map(book => {
                         return (
-                            <li className="search-list list-group-item">
-                                <Row className="SearchResult row" id={book.title + "Card"} key={book._id}>
-                                    <Col size="2" className="bookImage">
+                            <li className="search-list list-group-item" key={book.id}>
+                                <Row className="SearchResult row" id={book.title + "Card"} >
+                                    <Col size="2" className="bookImage" >
                                         <img src={book.image} alt={book.title} />
                                     </Col>
-                                    <Col size="1" className="emptyCol" />
+                                    <Col size="1" className="emptyCol"  />
                                     <Col size="9" className="bookInfo">
-                                        <Row>
+                                        <Row >
                                             <h3 className="bookTitle">{book.title}</h3>
                                         </Row>
-                                        <Row>
+                                        <Row >
                                             <h4 className="bookAuthor">{book.author}</h4>
                                         </Row>
                                         <Row>
@@ -42,11 +42,11 @@ const SearchResult = props => {
                                 <br></br>
                                 
                                 <Row className="buttonDiv" key={book._id}>
-                                    <button className="saveBook btn btn-primary" id={book.id} onClick={(event) => props.handleSavedButton(event)}>
+                                    <button className="saveBook btn btn-primary" id={book.id} key={book._id} onClick={(event) => props.handleSavedButton(event)}>
                                         Save Book
                                         </button>
                                     <a href={book.link} target="_blank" rel="noopener noreferrer">
-                                        <button className="viewBook btn btn-success">
+                                        <button className="viewBook btn btn-success" key={book._id}>
                                             View Book
                                         </button>
                                     </a>
