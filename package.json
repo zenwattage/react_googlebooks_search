@@ -12,10 +12,6 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zenwattage/react_googlebooks_search.git"
-  },
   "author": "Scott Hansford",
   "license": "ISC",
   "devDependencies": {
