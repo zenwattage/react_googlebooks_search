@@ -19,7 +19,7 @@ const SavedResult = props => {
                     {props.savedBooks.map(savedbook => {
                         return (
                             <li className="saved-list list-group-item" key={savedbook._id}>
-                                <Row className="SearchResult" id={savedbook.title + "Card"} key={savedbook._id}>
+                                <Row className="SearchResult" id={savedbook.title + "Card"} > 
                                     {/* col-3 show image of the book */}
                                     <Col size="2" className="bookImage">
                                         <img src={savedbook.image} alt={savedbook.title} />
