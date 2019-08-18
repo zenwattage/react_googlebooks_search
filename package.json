@@ -7,7 +7,7 @@
     "client": "cd client && npm start",
     "server": "node server",
     "start": "concurrently  \"npm run server\" \"npm run client\""
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zenwattage/react_googlebooks_search.git"
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/zenwattage/react_googlebooks_search#readme",
   "dependencies": {
+    "concurrently": "^4.1.2",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "mongoose": "^5.6.9"
