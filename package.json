@@ -19,14 +19,14 @@
   "author": "Scott Hansford",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^4.1.2"
+    "concurrently": "^4.1.2",
+    "react-scripts": "^3.1.1"
   },
   "dependencies": {
     "axios": "^0.19.0",
     "express": "^4.17.1",
     "if-env": "^1.0.4",
     "mongoose": "^5.6.9",
-    "morgan": "^1.9.1",
-    "react-scripts": "^3.1.1"
+    "morgan": "^1.9.1"
   }
 }
