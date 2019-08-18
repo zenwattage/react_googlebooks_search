@@ -4,7 +4,7 @@
   "description": "searching google books api",
   "main": "server.js",
   "scripts": {
-    "start": "NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start": "npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
     "start:dev": "concurrently \"nodemon --ignore client/\" \"npm run client\"",
     "client": "cd client && npm run start",
@@ -16,9 +16,11 @@
     "url": "git+https://github.com/zenwattage/react_googlebooks_search.git"
   },
   "author": "Scott Hansford",
-  "license": "MIT",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.2"
+  },
   "dependencies": {
-    "concurrently": "^4.1.2",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "mongoose": "^5.6.9"
