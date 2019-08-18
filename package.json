@@ -1,6 +1,10 @@
 {
   "name": "react_googlebooks_search",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.1.0",
+    "npm": "6.10.3"
+  },
   "description": "searching google books api",
   "main": "server.js",
   "scripts": {
