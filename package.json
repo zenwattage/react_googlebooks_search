@@ -17,10 +17,6 @@
   },
   "author": "Scott Hansford",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zenwattage/react_googlebooks_search/issues"
-  },
-  "homepage": "https://github.com/zenwattage/react_googlebooks_search#readme",
   "dependencies": {
     "concurrently": "^4.1.2",
     "dotenv": "^8.0.0",
