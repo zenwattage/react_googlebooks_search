@@ -1,21 +1,36 @@
 form {
     background:#1D354B;
     margin: 20px;
-    padding: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
     color: #C99946;
+    border-radius: 5px;
+    font-family: 'Fjalla One', sans-serif;
+    box-shadow: 2px 2px 5px #A59E69;
 
+}
+
+.submitBtn {
+    color: #C99946;
+    background-color: #57897B;
+}
+
+.form-group {
+    border-radius: 5px;
 }
 
 input {
     background-color:#C99946;
 }
 
+
 .GoogleBookSearchLabel {
-    margin-left: 15px;
+    font-size: 30px;
+    margin-left: 5px;
     margin-top: 10px;
 }
 
 .form-control {
     width: 90%;
-    margin-left: 15px;
+    margin-left: 5px;
 }

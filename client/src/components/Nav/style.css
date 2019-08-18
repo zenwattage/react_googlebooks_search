@@ -1,18 +1,22 @@
 .navbar {
     background-color: #34362F;
     color: #C99946;
+    border-radius: 5px;
 }
 
+
+
 h2.navtitle {
-    color: white;
-    text-shadow: 2px 2px black;
+    font-size: 60px;
+    color:#34362F;
+    text-shadow: 1px 1px 10px #C99946;
 }
 
 .text-white {
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px #34362F;
 }
 
 .btn-info {
     background-color: #C99946;
-    text-shadow: 1px 1 px black;
+    text-shadow: 1px 1 px #34362F;
 }

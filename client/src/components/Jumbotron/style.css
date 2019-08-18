@@ -1,10 +1,22 @@
 .jumbotron {
-    background-image: url("./mat-reding-98X_gGu2GWA-unsplash.jpg");
-    background-color: #57897B;
+    justify-content: center;
+    font-size: 60px;
+    background-image: transparent;
+    /* background-image: url("./eli-francis-_M-DrbiNFa4-unsplash.jpg"); */
+    background-color: transparent; /* #57897B */
+    border-radius: 5px;
+    margin-top: 5px;
     width: 100%;
     height: 200px;
     background-size: cover;
     text-align: initial;
     background-position: center;
-    box-shadow: 2px 4px 4px rgba(52, 54, 47, 0.226);
+}
+
+h1.jumbo{
+    text-shadow: 2px 2px #34362F;
+    font-size: 50px;
+    color: #C05934;
+    font-family: 'Fjalla One', sans-serif;
+    
 }

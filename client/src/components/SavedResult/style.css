@@ -1,3 +1,12 @@
-card {
-    background-color: blue;
+.card {
+    margin: 4px;
+    background-color: #C05934;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.player {
+    margin: 2px;
+    padding: 8px;
+    
+    
 }

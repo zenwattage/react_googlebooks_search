@@ -1,8 +1,15 @@
 
+
+
 .article {
-    background-color: #1D354B;
+    background-color: #34362F;
+    margin: 5px;
+    padding-left: 4px;
+    padding-top: 2px;
+    box-shadow: 3px 3px #C99946;
 }
-.list-group-item {
-    
-    margin-top: 10px;
+
+
+.btn {
+    margin-inline: 2px;
 }

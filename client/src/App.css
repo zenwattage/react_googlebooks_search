@@ -1,8 +1,45 @@
 body {
-  background-image: url("./wall.jpeg");
+  background-image: url("./raj-eiamworakul-o4c2zoVhjSw-unsplash.jpg");
   background-size: cover ;
   background-repeat: no-repeat;
   background-color: #34362F;
   color: #C99946;
+  font-family: 'Fjalla One', sans-serif;
+  padding-bottom: 5px;
   
+}
+
+
+h3 {
+  margin: 2px;
+}
+.saved-list {
+  margin-bottom: 4px;
+}
+
+.card-body {
+  border-radius: 5px;
+  background-color: #A59E69;
+}
+
+.list-group-item {
+  border-radius: 5px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+.article {
+  border-radius: 5px;
+}
+
+
+h1.searchResults {
+  background-color: blue;
+  margin: 4px;
+  background-color: #C05934;
+}
+
+.searchResults {
+  border-radius: 5px;
 }
